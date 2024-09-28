@@ -1,7 +1,4 @@
-# Moshi: a speech-text foundation model for real time dialogue
-
-![precommit badge](https://github.com/kyutai-labs/moshi/workflows/precommit/badge.svg)
-![rust ci badge](https://github.com/kyutai-labs/moshi/workflows/Rust%20CI/badge.svg)
+# Moshi Avatar: A Moshi with an Avatar.
 
 
 This is a fork of Moshi, which adds an AI avatar on top using [simli](https://simli.com). 
@@ -20,6 +17,12 @@ cd simli-client
 npm install
 npm run dev
 ```
+
+Orignal Moshi Readme Follows:
+
+
+![precommit badge](https://github.com/kyutai-labs/moshi/workflows/precommit/badge.svg)
+![rust ci badge](https://github.com/kyutai-labs/moshi/workflows/Rust%20CI/badge.svg)
 
 [[Read the paper]][moshi] [[Demo]](https://moshi.chat) [[Hugging Face]](https://huggingface.co/collections/kyutai/moshi-v01-release-66eaeaf3302bef6bd9ad7acd)
 

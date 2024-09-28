@@ -3,6 +3,14 @@
 
 This is a fork of Moshi, which adds an AI avatar on top using [simli](https://simli.com). 
 
+
+
+https://github.com/user-attachments/assets/ea7f1bf3-fc4a-4359-884b-baeb61ad7372
+
+
+
+
+
 It augments the mlx.local.py script to feed the audio to the simli-nextjs client rather than outputing it directly to the microphone.
 
 This repo is hacky, to run it you need a apple silicon mac. 
@@ -17,6 +25,9 @@ cd simli-client
 npm install
 npm run dev
 ```
+
+
+
 
 Orignal Moshi Readme Follows:
 

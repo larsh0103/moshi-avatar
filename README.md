@@ -5,7 +5,10 @@ This is a fork of Moshi, which adds an AI avatar on top using [simli](https://si
 
 
 
-https://github.com/user-attachments/assets/ea7f1bf3-fc4a-4359-884b-baeb61ad7372
+
+https://github.com/user-attachments/assets/e153a06e-4b9f-4e1e-a3f0-02aee6969bae
+
+
 
 
 

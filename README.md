@@ -4,7 +4,7 @@
 ![rust ci badge](https://github.com/kyutai-labs/moshi/workflows/Rust%20CI/badge.svg)
 
 
-This is a fork of Moshi, which adds an AI avatar on top using simli (https://simli.com). 
+This is a fork of Moshi, which adds an AI avatar on top using [simli](https://simli.com). 
 
 It augments the mlx.local.py script to feed the audio to the simli-nextjs client rather than outputing it directly to the microphone.
 

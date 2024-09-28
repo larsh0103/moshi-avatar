@@ -3,6 +3,24 @@
 ![precommit badge](https://github.com/kyutai-labs/moshi/workflows/precommit/badge.svg)
 ![rust ci badge](https://github.com/kyutai-labs/moshi/workflows/Rust%20CI/badge.svg)
 
+
+This is a fork of Moshi, which adds an AI avatar on top using simli (https://simli.com). 
+
+It augments the mlx.local.py script to feed the audio to the simli-nextjs client rather than outputing it directly to the microphone.
+
+This repo is hacky, to run it you need a apple silicon mac. 
+
+1. Run the augmented local mlx 
+```bash
+python -m moshi_mlx.local -q 4
+```
+2. Then start the simli client
+```bash
+cd simli-client
+npm install
+npm run dev
+```
+
 [[Read the paper]][moshi] [[Demo]](https://moshi.chat) [[Hugging Face]](https://huggingface.co/collections/kyutai/moshi-v01-release-66eaeaf3302bef6bd9ad7acd)
 
  [Moshi][moshi] is a speech-text foundation model and **full-duplex** spoken dialogue framework.
